@@ -1,0 +1,863 @@
+
+.imgs 
+{
+    height:100vh;
+
+}
+@font-face {
+    font-family: mmp;
+    src: url(/src/fonts/mmp.ttf);
+}
+@font-face {
+    font-family: font5;
+    src: url(/src/fonts/font5.ttf);
+}
+@font-face {
+    font-family: font1;
+    src: url(/src/fonts/font1.ttf);
+}
+
+.headfcou 
+{
+  
+   font-family: mmp;
+  font-size: 3rem;
+  padding:20px;
+ color:black
+}
+.head2fcou
+{
+   
+    font-family:font5;
+   font-size: 4rem;
+   padding:10px;
+ color:black
+
+ 
+ } 
+ .parafcou 
+ {
+   font-size: 2rem;
+   font-family: font1;
+   padding:20px;
+ color:black
+
+
+ }
+ .headfcou2
+{
+   
+    font-family:font5;
+   font-size: 4rem;
+   padding:10px;
+ 
+ } 
+ .parafcou2
+ {
+   font-size: 2rem;
+   font-family: font1;
+   padding:20px;
+   height:300px;
+
+
+ }
+ .bg 
+ {
+  justify-content: center;
+  align-items: center;
+  height:80vh;
+  border:8px solid;
+ backdrop-filter:blur(6px);
+ border-radius: 50px 0px 50px 0px;
+ display: flex;
+ flex-wrap: wrap;
+ }
+ .headfcou1
+
+{
+ 
+    font-family:font5;
+   font-size: 4rem;
+   padding:10px;
+  
+  
+ 
+
+ 
+ } 
+ 
+ .parafcou1
+ {
+   font-size: 2rem;
+   font-family: font1;
+   
+   margin: 0px;
+   height:300px;
+   
+  
+  
+
+ }
+ .imgcon
+ {
+  width: 100%;
+ }
+ 
+ @media all and (max-width:1115px )
+ {
+  .imgcon
+  {
+    background-size: cover;
+  }
+  
+  .bg>.headfcou1
+  {
+  font-size: 3rem;
+  }
+  .bg>.headfcou
+  {
+  font-size: 3rem;
+  }
+  .bg> .head2fcou
+  {
+  font-size: 3rem;
+  }
+  .bg>.parafcou
+  {
+    font-size: 2rem;
+  }
+  .bg> .headfcou2
+  {
+  font-size: 3rem;
+  }
+  .bg>.parafcou2
+  {
+    font-size: 2rem;
+  }
+  .bg>.parafcou1
+  {
+    font-size: 2rem;
+  }
+ }
+
+ @media all and (max-width:910px )
+ {
+  .imgcon
+  {
+    background-size: cover;
+  }
+ .bg>.headfcou1
+  {
+  font-size: 2rem;
+  }
+  .bg> .headfcou
+  {
+  font-size: 2rem;
+  }
+  .bg>.head2fcou
+  {
+  font-size: 2rem;
+  }
+  .bg>.parafcou1
+  {
+    font-size: 1rem;
+  }
+  .bg>.parafcou
+  {
+    font-size: 1rem;
+  }
+  .bg>.headfcou2
+  {
+  font-size: 2rem;
+  }
+  .bg>.parafcou2
+  {
+    font-size: 1rem;
+  }
+ }
+ .parentfcard
+ {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+ 
+ }
+ 
+ card 
+ {
+  border: 2px solid;
+ 
+ }
+ @font-face {
+  font-family: font3;
+  src: url(/src/fonts/font3.otf);
+ }
+ .HeadingfCard
+ {
+  font-size: 2rem;
+  font-family:font3;
+ height:150px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color:red;
+ flex-wrap: wrap;
+ }
+ .Bighead 
+ {
+  
+  font-size: 4rem;
+  font-family:font3;
+ height:100px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+ }
+ .totalcard
+ {
+background-color: #ebd8f7;
+
+ }
+ 
+ .full 
+ {
+  height: 500px;
+  width:18rem;
+ }
+ 
+
+ .card1:hover
+ {
+ background-color: #FE8D29;
+ >.ch{
+  color:white
+ }
+ >p
+ {
+ color:#f6f6f6;
+ }
+
+ }
+ .card2:hover
+ {
+ background-color: #FE8D29;
+ >.ch{
+  color:white
+ }
+ >p
+ {
+ color:#f6f6f6;
+ }
+
+ }.card3:hover
+ {
+ background-color: #FE8D29;
+ >.ch{
+  color:white
+ }
+ >p
+ {
+ color:#f6f6f6;
+ }
+
+
+ }.card4:hover
+ {
+ background-color: #FE8D29;
+ >.ch{
+  color:white
+ }
+ >p
+ {
+ color:#f6f6f6;
+ }
+
+ }
+ .card5:hover
+ {
+ background-color: #FE8D29;
+ >.ch{
+  color:white
+ }
+ >p
+ {
+ color:#f6f6f6;
+ }
+}
+.card6:hover
+{
+background-color: #FE8D29;
+>.ch{
+ color:white
+}
+>p
+{
+color:#f6f6f6;
+}
+} .card7:hover
+{
+background-color: #FE8D29;
+>.ch{
+ color:white
+}
+>p
+{
+color:#f6f6f6;
+}
+} .card8:hover
+{
+background-color: #FE8D29;
+>.ch{
+ color:white
+}
+>p
+{
+color:#f6f6f6;
+}
+}
+ 
+
+ @font-face {
+  font-family: font6;
+  src: url(/src/fonts/font6.otf);
+ }
+ 
+ .ch
+ {
+ 
+  height:100px;
+  font-family: font6;
+  font-size: 2rem;
+ 
+  
+ 
+ }
+ @font-face {
+  font-family: Adine;
+  src: url(/src/fonts/Adine.ttf);
+ }
+
+ .cm 
+ {
+  height:400px;
+ }
+ p{
+  font-size: 2rem;
+  font-family: Adine;
+ height:150px;
+ margin: 0px;
+font-weight: 500;
+ }
+ .ad 
+ {
+  height:100vh;
+  width:100%;
+  background-color: #FAF7F2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+ }
+ .texts 
+ {
+  width:50%;
+ }
+ .picture
+ {
+  width:50%;
+ margin: 0px;
+ padding: 0px;
+ justify-content: center;
+ align-items: center;
+
+ }
+ .Headingfad
+ {
+  font-size: 2rem;
+  font-family:font3;
+ height:150px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color:red;
+ flex-wrap: wrap;
+ }
+ @font-face {
+  font-family:cor;
+  src: url(/src/fonts/cor.ttf);
+ }
+ 
+ .Bigheadad
+ {
+  
+  font-size: 2.5rem;
+  font-family:cor;
+ height:100px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ }
+ .parafad{
+  font-size: 2.5rem;
+  font-family: Adine;
+ height:150px;
+ margin: 0px;
+font-weight: 500;
+ }
+ .btn 
+ {
+  height:100px;
+  width:200px;
+ }
+ @media all and (max-width:1115px )
+ {
+  .ad 
+  {
+    height:80vh;
+  }
+  .Headingfad
+  {
+    font-size: 1rem;
+  }
+  .Bigheadad
+  {
+    font-size: 2rem;
+
+  }
+  .parafad
+  {
+    font-size: 2rem;
+  }
+  .picture 
+  {
+    height:500px;
+    width:500px;
+
+  }
+  .picture >img {
+height:500px;
+width:500px;
+    
+  }
+ }
+ @media all and (max-width:1018px )
+ {
+  .picture 
+  {
+    height:450px;
+    width:450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .picture >img {
+height:450px;
+width:450px;
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+  .Headingfad
+  {
+    font-size: 2rem;
+  }
+  .Bigheadad
+  {
+    font-size: 1.5rem;
+
+  }
+  .parafad
+  {
+    font-size: 1.9rem;
+  }
+ }
+
+
+ @media all and (max-width:918px )
+ {
+  .picture 
+  {
+    height:400px;
+    width:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .picture >img {
+height:400px;
+width:400px;
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+ }
+ @media all and (max-width:814px )
+ {
+  .picture 
+  {
+    height:350px;
+    width:350px;
+    margin-top: 200px;
+   
+  }
+  .picture >img {
+height:350px;
+width:350px;
+
+  }
+}
+ @media all and (max-width:780px )
+ {
+  
+  .parafad
+  {
+    line-height: 40px;
+  }
+
+ }
+
+ @media all and (max-width:717px )
+ {
+  .picture 
+  {
+    height:300px;
+    width:300px;
+    margin-top: 200px;
+   
+  }
+  .picture >img {
+height:300px;
+width:300px;
+
+  }
+ }
+ @media all and (max-width:630px )
+{
+  .Headingfad
+  {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  .Bigheadad
+  {
+    font-size: 1rem;
+
+  }
+ 
+  .parafad
+  {
+    font-size: 1.5rem;
+  }
+}
+ @media all and (max-width:617px )
+ {
+  
+  .picture 
+  {
+    height:250px;
+    width:250px;
+    margin-top: 200px;
+   
+  }
+  .picture >img {
+height:250px;
+width:250px;
+
+  }
+ }
+ 
+ @media all and (max-width:518px )
+ {
+   .Headingfad
+   {
+     font-size: 1.5rem;
+    text-align: left;
+
+   }
+   .Bigheadad
+   {
+     font-size: 1rem;
+ 
+   }
+  
+   .parafad
+   {
+     font-size: 1.2rem;
+   }
+   .picture 
+  {
+    height:200px;
+    width:200px;
+    margin-top: 300px;
+   
+  }
+  .picture >img {
+height:200px;
+width:200px;
+
+  }
+ }
+ .chef
+ {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height:100vh;
+  border: none;
+  flex-wrap: wrap;
+ }
+ .cardfchef
+ {
+height:400px;
+width:310px;
+border: none;
+ }
+ .chefimg 
+{
+  height:300px;
+  width:300px;
+  border-radius: 50%;
+}
+.chefpara 
+{
+  height:100px;
+  font-size: 3rem;
+border: none;
+color:#FE8D29;
+
+ 
+}
+@font-face {
+  font-family:Coco;
+  src: url(/src/fonts/Coco.ttf);
+}
+.chefhead 
+{
+  border: none;
+  background-color:rgb(255, 249, 240);
+  font-size: 2rem;
+  font-family:Coco ;
+}
+.secfchef
+{
+  background-color: #f5e8d6;
+
+  
+}
+.cardchef 
+{
+  border: none;
+}
+.btngrp 
+{
+  height:40px;
+  width: 50%;
+  display: flex;
+ margin-left: 70px;
+
+ background-color: rgb(153, 150, 150);
+}
+.btnfb 
+{
+  height:40px;
+  width:40px;
+}
+.btni 
+{
+  height:40px;
+  width:40px;
+}.btnt 
+{
+  height:40px;
+  width:40px;
+}
+@media all and (max-width:948px )
+{
+  .chef{
+    
+  height:200vh;
+  }
+}
+@media all and (max-width:639px )
+{
+  .chef{
+    
+    height:300vh;
+    }
+}
+.parentfcontact
+{
+  display: flex;
+  height:80vh;
+  flex-direction: row;
+  justify-content:space-around;
+  background-color: rgb(34, 34, 34);
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact1
+{
+  height:60vh;
+  border: 2px solid;
+  width:450px;
+  text-align: left;
+
+}.contact2
+{
+  height:60vh;
+  border: 2px solid;
+  width:400px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  
+
+}
+
+@font-face {
+  font-family: Coco;
+  src: url(/src/fonts/Coco.ttf);
+}
+.headfcon
+{
+  font-size: 2rem;
+  font-family: Coco;
+  color:white;
+  height:100px;
+
+
+}
+@font-face {
+  font-family: Coco;
+  src: url(/src/fonts/Coco.ttf);
+}
+
+.headfcon2
+{
+  font-size: 2rem;
+  font-family: Coco;
+  color:white;
+  height:300px;
+
+
+}
+.h2fcon 
+{
+  font-size: 2rem;
+  font-family: Coco;
+  color:white;
+}
+@font-face {
+  font-family: Applemoon;
+  src: url(/src/fonts/Applemoon.ttf);
+}
+.para2fcon 
+{
+  color:white;
+  font-size: 1rem;
+  font-family:Applemoon;
+
+  
+}
+.para22fcon 
+{
+  color:white;
+  font-size: 1rem;
+  font-family:Applemoon;
+ 
+
+  
+}
+
+.h22fcon 
+{
+  font-size: 2rem;
+  font-family: Coco;
+
+  color:white;
+  margin-top: 50px;
+
+}
+@font-face {
+  font-family: Applemoon;
+  src: url(/src/fonts/Applemoon.ttf);
+}
+.copies 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.copy
+{
+  font-size: 1rem;
+  font-family: none;
+  height:40px;
+
+
+}
+.grpcop 
+{
+  height:40px;
+  width:500px;
+  
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+ 
+}
+.btcop 
+{
+  height:40px;
+  width:40px;
+  background-color: rgb(190, 185, 185);
+  border: none;
+ 
+}
+@media all and (max-width:867px )
+{
+  .contact1
+  {
+    width:50%;
+  }
+  .contact2
+  {
+    width:50%;
+
+  }
+}
+@media all and (max-width:610px )
+{
+  .parentfcontact
+  {
+    height:100vh;
+  }
+  .contact1{
+    height:80vh;
+  }
+  .contact2{
+    height:80vh;
+    width:40%;
+  }
+ 
+.h22fcon 
+{
+  margin-top: 100px;
+}
+}
+@media all and (max-width:490px )
+{
+  .h22fcon 
+{
+  margin-top: 150px;
+}
+}
+
+

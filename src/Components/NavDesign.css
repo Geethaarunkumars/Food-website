@@ -1,0 +1,42 @@
+.parentnav 
+{
+    background-image: linear-gradient( 60deg,#0c0c0c,#6d6b6c);
+    position: fixed;
+    z-index:1;
+    width: 100%;
+    
+
+}
+
+.parent1
+{
+    margin-left: 400px;
+   
+}
+@font-face {
+    font-family:Coco ;
+    src: url(/src/fonts/Coco.ttf);
+    font-size: 2rem;
+}
+.nav
+{
+
+ color: white;
+ font-family: Coco;
+ padding:20px;
+ font-size: 1.3rem;
+ margin-left: 10px;
+ 
+
+ 
+}
+.nav:focus
+{
+    color:rgb(136, 129, 129);
+}
+.nav:hover{
+
+    color:rgb(118, 118, 189);
+}
+
+

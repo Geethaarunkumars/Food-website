@@ -1,0 +1,156 @@
+
+h1 
+{
+    color:black
+}
+
+.Formpage
+{
+    display: flex;
+    height:100vh;
+    flex-direction: row;
+
+ 
+
+    flex-wrap: wrap;
+}
+.picpage
+{
+    height:100vh;
+    width:45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+   
+}
+
+.btn111
+{
+    height:60px;
+    width:150px;
+    margin-left: 100px;
+    background-color: blueviolet;
+    border: none;
+    color: antiquewhite;
+    border-radius: 20px;
+}
+
+.FormContainer
+{
+    
+  height:100vh;
+   
+    width:55%;
+
+}  
+.Formgroup 
+{
+    margin: 40px;
+  
+  
+}
+input
+{
+padding:15px;
+width:70%;
+border: none;
+border-bottom: 2px solid gray;
+}
+
+.chkbx
+{
+    height:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box 
+{
+    height:20px;
+    width:40px;
+}
+.reg 
+{
+height:50px;
+width:150px;
+border-radius: 15px;
+background-color: blueviolet;
+color:white;
+border: none;
+}
+.btn 
+{
+    height:100px;
+    width:100px;
+  margin-left: 50px;
+  border: none;
+
+}
+.Forms 
+{
+    height:80vh;
+    
+   
+
+}
+.Forms2
+{
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   flex-wrap: wrap;
+   
+}
+.btgrp 
+{
+    height:15vh;
+    
+
+}
+.imgs 
+{
+    width:100%;
+}
+@media all and (max-width:920px )
+{
+.FormContainer
+{
+    width:60%;
+
+}
+.picpage
+{
+    width:40%;
+    display: flex;
+  margin-top: 50px;
+}
+
+.imgs 
+{
+   height:400px;
+   width:100%;
+
+}
+
+.fmedia 
+{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+}
+@media all and (max-width:470px )
+{
+    .btn 
+    {
+        margin:30px 0px 0px 50px;
+    }
+}
+   .ckbox
+   {
+    display: flex;
+    flex-direction: row;
+   }
